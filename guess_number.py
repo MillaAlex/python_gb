@@ -15,6 +15,7 @@ while TRIES > counter:
     guessed_num = int(input("Enter your num from 0 to 1000: "))
     if guessed_num == num:
         print("Correct. Good job!")
+        break
     elif guessed_num > num:
         print("Too big. Try again.")
         TRIES -= 1
