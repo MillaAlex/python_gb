@@ -17,6 +17,7 @@ else:
         for i in range(2, int(num**0.5 + 1)):
             if num % i == 0:
                 counter += 1
+                break
         if counter > 0:
             print(f"The number {num} is compound.")
         else:
